@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agence de voyage </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/react-is/18.2.0/umd/react-is.production.min.js" integrity="sha512-YbLeROkNBfkWaL5RmVsg7G1JQp0by0pCmJgBpOfAQOPTKIchg79fVzahpg5YPUMS1+77WCcpd84OTOK0gdf8BA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>    
+<body>
+    <section class="top-page">
+        <header class="header">
+            <img src="travel-logo.png" alt="logo de site"> 
+            <!-- menu de navigation -->
+            <nav class="nav">
+                <li><a href="#services">Accueil</a></li>
+                <li><a href="#Galerie">Galerie</a></li>
+                <li><a href="#Contact">contact</a></li>
+                <li><a href="#inscription">s'inscrire</a></li>
+            </nav>
+            <!-- header icons -->
+            <div class="nav-icon">
+                <a href="#"><i class='bx bx-search-alt' id="search-btn"></i></a>
+                <a href="#"><i class='bx bx-user' id="login-btn"></i></a>
+                <a href="#"><i class='bx bx-menu' id="menu-btn"></i></a>
+            </div> 
+            <form action="" class="search-form">
+                <input type="search" id="search-box" placeholder="search here...">
+                <label for="search-box"><i class='bx bx-search-alt'></i></label>
+            </form> 
+            <form action="" class="login-form">
+                <h3>login now </h3>
+                <input type="email" placeholder="your email" class="box">
+                <input type="password" placeholder="your password" class="box">
+                <P> forget your password <a href="#"> click here</a></P>
+                <P> don't have an account <a href="#"> create now </a></P>
+                <input type="submit" value="login now" class="btn">
+            </form>  
+           
+        </header>
+       <div class="landing-page">
+        <h1 class="big-title">THE WORLD'S MOST UNIQUE ADVENTURES & RESORTS </h1>
+        <a class="scroll-down" href="#services">scroll <i class='bx bx-chevron-down'></i></a>
+       </div>
+    </section>
+   
+    <div class="titre-service">
+            <h2> Pourquoi Nous ? </h2>
+    </div>
+    <!-- service -->
+    <section class="service" id="services">
+        <div class="service-item">
+            <i class='bx bxs-plane-alt delivery-icon'></i>
+            <p class="service-details">Une sélection de 80 destinations choisies et testées par nos experts</p>
+        </div>
+        <div class="service-item">
+            <i class='bx bxs-directions delivery-icon'></i>
+            <p class="service-details">+ 100 guides locaux vous accompagnent à travers le monde.</p>
+        </div>
+        <div class="service-item">
+            <i class='bx bxs-medal delivery-icon'></i>
+            <p class="service-details">+de 20 conseillers spécialistes du voyage sur-mesure de luxe</p>
+        </div>
+        <div class="service-item ">
+            <i class='bx bxs-universal-access  delivery-icon'></i>
+            <p class="service-details">Une réelle assistance 24h/7 avant, pendant et après votre voyage.</p>
+        </div>
+    </section>
+    <!-- Gallery-->
+    
+
+
+    <section class="best-destination"id="Galerie"></section>
+        <div class="fire-icon">
+            <i class='bx bxs-hot'></i>
+        </div>
+        <div class="centre-text">
+            <h2>Tendances du moment</h2>
+        </div>
+        <div class="slider">
+            <img src="slider1.jpg" alt="">
+            <img src="slider2.jpg" alt="">
+            <img src="slider3.jpg" alt="">
+            <img src="slider4.jpg" alt="">
+            <img src="slider5.jpg" alt="">
+        </div>
+        <div class="destinations">
+            <div class="row displayNone">
+                <img src="photo pr1.jpeg" alt="">
+                <div class="heart-icon">
+                    <i class='bx bxs-heart'></i>
+                </div>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+            <div class="row displayNone ">
+                <img src="photo pr2.jpeg" alt="">
+                <div class="heart-icon">
+                    <i class='bx bxs-heart'></i>
+                </div>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+            <div class="row  displayNone">
+                <img src="photo pr3.jpeg" alt="">
+                <div class="heart-icon">
+                    <i class='bx bxs-heart'></i>
+                </div>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+            <div class="row  displayNone">
+                <img src="photo pr4.jpeg" alt="">
+                <div class="heart-icon">
+                    <i class='bx bxs-heart'></i>
+                </div>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+            <div class="row">
+                <img src="photo pr5 1.jpeg" alt="">
+                <div class="heart-icon">
+                    <i class='bx bxs-heart'></i>
+                </div>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+            <div class="row">
+                <img src="photo pr6.jpeg" alt="">
+                <div class="heart-icon">
+                    <i class='bx bxs-heart'></i>
+                </div>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+            <div class="row">
+                <img src="photo pr8.jpeg" alt="">
+                <div class="heart-icon">
+                    <i class='bx bxs-heart'></i>
+                </div>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+            <div class="row">
+                <img src="photo pr9.jpeg " alt="">
+                <div class="heart-icon">
+                    <i class='bx bxs-heart'></i>
+                </div>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div> 
+        </div>
+        <div class="bottom-text">
+            <a href="#"> voir plus <i class='bx bx-chevron-down'></i></a>
+        </div> 
+    </section>
+     <!-- votre voyage sur mesure -->
+    <section class="home">
+        <div class="left_right">
+            <div class="left">
+                <h1> votre voyage sur mesure commence ici </h1>
+                <p><Span style="font-size: x-large;">1</Span>
+                    Écoute
+                    + 20 conseillers spécialisés par pays et régions, vous aident à créer un voyage selon vos envies et votre budget.
+                </p>
+                <p><Span style="font-size: x-large;">2</Span>
+                    Personnalisation
+                    Suivant les suggestions de votre conseiller mais aussi vos idées, nous construisons une expérience ultra-personnalisée : villes, hôtels, activités, rencontres... 
+                </p>
+                <p> <Span style="font-size: x-large;">3</Span>
+                    Services
+                    Grâce à ECHO, notre service client, vous bénéficiez d'une assistance 24h/24 et d'un éventail de services à votre disposition.
+                </p>
+            </div>
+            <div class="right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.6144663837736!2d-6.88082175215891!3d33.97674752170586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76db1b51ffc1b%3A0x8eb40baa8907af6!2sISTA%20YAACOUB%20ELMANSOUR!5e0!3m2!1sfr!2sma!4v1706724768424!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    </section>
+     <!-- Gallery des activites-->
+     <div class="image-icon">
+        <i class='bx bx-image-alt'></i>
+     </div>
+     <div class="centre-title">
+        <h2> le monde selon vos envies</h2>
+     </div>
+     <div class="gallery-section">
+        <div class="gallery-warp">
+            <div class="gallery-images">
+                <div class="gallery">
+                    <div class="image-section">
+                        <img src="le monde1.jpg">
+                    </div>
+                    <div class="caption">
+                        <h3> Gallery one </h3>
+                        <P> ski </P>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <div class="image-section">
+                        <img src="le monde2.jpg">
+                    </div>
+                    <div class="caption">
+                        <h3> Gallery two </h3>
+                        <p> plage </p>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <div class="image-section">
+                        <img src="le monde3.jpg">
+                    </div>
+                    <div class="caption">
+                        <h3> Gallery three </h3>
+                        <p> honey moon </p>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <div class="image-section">
+                        <img src="le monde4.jpg">
+                    </div>
+                    <div class="caption">
+                        <h3> Gallery four </h3>
+                        <p> croisiere </p>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <div class="image-section">
+                        <img src="le monde5.jpg">
+                    </div>
+                    <div class="caption">
+                        <h3> Gallery five </h3>
+                        <p> triping </p>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <div class="image-section">
+                        <img src="le monde6.jpg">
+                    </div>
+                    <div class="caption">
+                        <h3> Gallery six </h3>
+                        <p> famille</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- contact  -->
+     <section class="cards-contact" id="Contact">
+        <h2>let's work together</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class='bx bxs-phone'></i>
+                </div>
+                <div class="info">
+                    <h3>phone</h3>
+                    <p>+21200000000</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class='bx bxs-envelope-open'></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>business@wissal.gmail.ma</p>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- l'inscription -->
+     <section class="inscription" id="inscription">
+        <div class="inscrire">
+            <div class="title-inscription">
+                <h1>Évasion de luxe</h1>
+            </div>
+            <div class="para-inscription">
+                <p>Inscrivez-vous et participez à nos ventes privées réservées uniquement
+                    à nos membres inscrits.</p>
+            </div> 
+            <div class="inscrivez">
+                <input type="nom" placeholder="votre Nom" required >
+                <input type="email" placeholder="E-mail" required >
+                <input type="password" placeholder="creer un mot de passe" required>
+            </div>
+            <div class="buttons">
+                <button type="button" class="continu">Continuer</button>
+            </div>
+        </div>
+     </section>
+     <!-- contact-section -->
+     <section class="contact">
+        <div class="contact-info">
+            <div class="first-info">
+                <img src="travel-logo.png" alt="">
+
+                <p> 3245 grant street longview, <br>Tx united kingdom 765378</p>
+                <P>+21200000000</P>
+                <P>business@wissal.gmail.ma</P>
+
+                <div class="social-icon">
+                    <a href="#"><i class='bx bxl-facebook-square' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+            <div class="la-selection">
+                <p>Maroc</p>
+                <p>Turquie</p>
+                <p>Mexique</p>
+                <p>Colombie</p>
+                <p>Philippines</p>
+                <p>Grèce</p>
+                <p>États-Unis</p>
+                <p>Suisse</p>
+            </div>
+            <div class="la-selection2">
+                <p>Italie</p>
+                <p>Brésil</p>
+                <p>Tanzanie</p>
+                <p>Japon</p>
+                <p>Corée du sud</p>
+                <P>Dubai</P>
+                <P>Vietnam</P>
+            </div>
+            <div class="la-selection3">
+                <p>Thailande</p>
+                <p>Indonésie (Bali)</p>
+                <p>Portugal</p>
+                <p>Espagne</p>
+                <p>Islande</p>
+                <p>Norvège</p>
+            </div>
+            <div class="la-Selection4">
+                <P>France</P>
+                <P>Inde</P>
+                <P>Egypte</P>
+                <P>Malaisie</P>
+                <P>Maldives</P>
+                <P>Pérou</P>
+            </div>
+        </div>
+     </section>
+     <footer class="end-text">
+        <p>Copyright @2024. All Rights Reserved.Designd By wissal akdoumi.</p>
+     </footer>
+    
+    <script src="java.js"></script>
+</body>
+</html>
